@@ -1,4 +1,4 @@
-(/Input/steam-banner.jpg)
+![img](https://github.com/KevsDe/steam/blob/master/Input/steam-banner.jpg)
 
 # SteamSpy data cleaning, exploring and analysing in python 
 
