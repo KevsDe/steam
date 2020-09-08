@@ -26,3 +26,8 @@ def ccountplot (column,data,title=' ', pal="Set2"):
     ax = sns.countplot(x=column, data=data, palette=pal)
     plt.title(title)
     plt.show()
+
+def print_results(data, columna, categoria):
+    """Print the the results of the ratio function, need same salues as ratio function"""
+    x=ratio(data, columna, categoria)
+    print((f"El porcerntaje de juegos de {categoria} en steam es de {x}%"))  
